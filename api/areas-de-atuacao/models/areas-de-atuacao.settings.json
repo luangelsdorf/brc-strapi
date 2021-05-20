@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "areas_de_atuacaos",
+  "info": {
+    "name": "Áreas de Atuação",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20,
+      "default": "Áreas de Atuação",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "bannerSubTitle": {
+      "type": "text",
+      "required": true,
+      "maxLength": 250,
+      "default": "Realizando a prestação de serviços jurídicos tanto para empresas como pessoas físicas, o BRC Advogados elabora soluções jurídicas eficazes e individualizadas para melhor atender os interesses de seus clientes.",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "callout": {
+      "type": "string",
+      "default": "Nós estamos prontos para atender você",
+      "maxLength": 50,
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
