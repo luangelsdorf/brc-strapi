@@ -30,9 +30,9 @@ const LinksContainer = styled.div`
     font-size: 10px;
   }
 
-  /*& > :nth-child(n+5) { !* esconder demais opções do sideBar *!
+  & > :nth-child(n+5) { /* esconder demais opções do sideBar */
     display: none;
-  }*/
+  }
 `;
 
 LinksContainer.defaultProps = {
