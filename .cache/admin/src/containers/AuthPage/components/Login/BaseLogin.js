@@ -61,7 +61,7 @@ const Login = ({ children, formErrors, modifiedData, onChange, onSubmit, request
           </Box>
         </BaselineAlignment>
       </Section>
-      <AuthLink label="Auth.link.forgot-password" to="/auth/forgot-password" />
+      {/*<AuthLink label="Auth.link.forgot-password" to="/auth/forgot-password" />*/}
     </>
   );
 };
